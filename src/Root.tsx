@@ -1,8 +1,13 @@
 import React from 'react';
 import './style.css';
+import styled from 'styled-components';
+
+const Title = styled.h1`
+  color: red;
+`;
 
 const Root = () => {
-  return <h3 className='title'>Hello, React</h3>;
+  return <Title>Hello, React</Title>;
 };
 
 export default Root;

@@ -13,6 +13,7 @@ module.exports = {
     index: 'index.html',
     port: 9000,
   },
+  mode: process.env.NODE_ENV,
   module: {
     rules: [
       {
